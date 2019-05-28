@@ -1,0 +1,310 @@
+{
+  "groups": [
+    {
+      "name": "huawei",
+      "type": "com.cnbmtech.apiadmin.config.HuaweiProperties",
+      "sourceType": "com.cnbmtech.apiadmin.config.HuaweiProperties"
+    },
+    {
+      "name": "huawei.api",
+      "type": "com.cnbmtech.apiadmin.config.HuaweiProperties$API",
+      "sourceType": "com.cnbmtech.apiadmin.config.HuaweiProperties",
+      "sourceMethod": "getApi()"
+    },
+    {
+      "name": "huawei.api.face",
+      "type": "com.cnbmtech.apiadmin.config.HuaweiProperties$API$Face",
+      "sourceType": "com.cnbmtech.apiadmin.config.HuaweiProperties$API",
+      "sourceMethod": "getFace()"
+    },
+    {
+      "name": "huawei.api.ocr",
+      "type": "com.cnbmtech.apiadmin.config.HuaweiProperties$API$OCR",
+      "sourceType": "com.cnbmtech.apiadmin.config.HuaweiProperties$API",
+      "sourceMethod": "getOcr()"
+    },
+    {
+      "name": "sensetime",
+      "type": "com.cnbmtech.apiadmin.config.SensetimeProperties",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties"
+    },
+    {
+      "name": "sensetime.entry-guard",
+      "type": "com.cnbmtech.apiadmin.config.SensetimeProperties$EntryGuard",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties",
+      "sourceMethod": "getEntryGuard()"
+    },
+    {
+      "name": "sensetime.resource-file-name",
+      "type": "com.cnbmtech.apiadmin.config.SensetimeProperties$ResourceFileName",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties",
+      "sourceMethod": "getResourceFileName()"
+    },
+    {
+      "name": "sensetime.result-pack-config",
+      "type": "com.cnbmtech.apiadmin.config.SensetimeProperties$ResultPackConfig",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties",
+      "sourceMethod": "getResultPackConfig()"
+    },
+    {
+      "name": "sensetime.service",
+      "type": "com.cnbmtech.apiadmin.config.SensetimeProperties$Service",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties",
+      "sourceMethod": "getService()"
+    },
+    {
+      "name": "sensetime.task",
+      "type": "com.cnbmtech.apiadmin.config.SensetimeProperties$Task",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties",
+      "sourceMethod": "getTask()"
+    },
+    {
+      "name": "sensetime.verify",
+      "type": "com.cnbmtech.apiadmin.config.SensetimeProperties$Verify",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties",
+      "sourceMethod": "getVerify()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "huawei.api.endpointformat",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.HuaweiProperties$API"
+    },
+    {
+      "name": "huawei.api.face.compare",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.HuaweiProperties$API$Face"
+    },
+    {
+      "name": "huawei.api.ocr.bankcard",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.HuaweiProperties$API$OCR"
+    },
+    {
+      "name": "huawei.api.ocr.bankcardregion",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.HuaweiProperties$API$OCR"
+    },
+    {
+      "name": "huawei.api.ocr.customform",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.HuaweiProperties$API$OCR"
+    },
+    {
+      "name": "huawei.api.ocr.driverlicense",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.HuaweiProperties$API$OCR"
+    },
+    {
+      "name": "huawei.api.ocr.generaltable",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.HuaweiProperties$API$OCR"
+    },
+    {
+      "name": "huawei.api.ocr.generaltext",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.HuaweiProperties$API$OCR"
+    },
+    {
+      "name": "huawei.api.ocr.handwriting",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.HuaweiProperties$API$OCR"
+    },
+    {
+      "name": "huawei.api.ocr.idcard",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.HuaweiProperties$API$OCR"
+    },
+    {
+      "name": "huawei.api.ocr.mvsinvoice",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.HuaweiProperties$API$OCR"
+    },
+    {
+      "name": "huawei.api.ocr.platenumber",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.HuaweiProperties$API$OCR"
+    },
+    {
+      "name": "huawei.api.ocr.vatinvoice",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.HuaweiProperties$API$OCR"
+    },
+    {
+      "name": "huawei.api.ocr.vehiclelicense",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.HuaweiProperties$API$OCR"
+    },
+    {
+      "name": "huawei.api.servertypes",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.cnbmtech.apiadmin.config.HuaweiProperties$API"
+    },
+    {
+      "name": "huawei.api.token",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.HuaweiProperties$API"
+    },
+    {
+      "name": "huawei.credentials",
+      "type": "java.util.Map<java.lang.String,com.cnbmtech.apiadmin.config.HuaweiProperties$Credential>",
+      "sourceType": "com.cnbmtech.apiadmin.config.HuaweiProperties"
+    },
+    {
+      "name": "sensetime.entry-guard.end-time",
+      "type": "java.lang.Integer",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$EntryGuard",
+      "defaultValue": 0
+    },
+    {
+      "name": "sensetime.entry-guard.opencmd",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$EntryGuard"
+    },
+    {
+      "name": "sensetime.entry-guard.opendelay",
+      "type": "java.lang.Long",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$EntryGuard",
+      "defaultValue": 0
+    },
+    {
+      "name": "sensetime.entry-guard.start-time",
+      "type": "java.lang.Integer",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$EntryGuard",
+      "defaultValue": 0
+    },
+    {
+      "name": "sensetime.resource-file-name.import-file",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$ResourceFileName"
+    },
+    {
+      "name": "sensetime.result-pack-config.alivetime",
+      "type": "java.lang.Integer",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$ResultPackConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "sensetime.service.accept-image-types",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$Service"
+    },
+    {
+      "name": "sensetime.service.bghome",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$Service"
+    },
+    {
+      "name": "sensetime.service.db-name",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$Service"
+    },
+    {
+      "name": "sensetime.service.home",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$Service"
+    },
+    {
+      "name": "sensetime.service.image-home",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$Service"
+    },
+    {
+      "name": "sensetime.service.ip",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$Service"
+    },
+    {
+      "name": "sensetime.service.mode",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$Service"
+    },
+    {
+      "name": "sensetime.task.create-task",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$Task"
+    },
+    {
+      "name": "sensetime.task.delete-task",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$Task"
+    },
+    {
+      "name": "sensetime.task.project-i-d",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$Task"
+    },
+    {
+      "name": "sensetime.task.query-ftp-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$Task"
+    },
+    {
+      "name": "sensetime.task.query-resource",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$Task"
+    },
+    {
+      "name": "sensetime.task.query-task-info",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$Task"
+    },
+    {
+      "name": "sensetime.task.send2-app",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$Task"
+    },
+    {
+      "name": "sensetime.task.update-task",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$Task"
+    },
+    {
+      "name": "sensetime.verify.db-name",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$Verify"
+    },
+    {
+      "name": "sensetime.verify.face-deletes",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$Verify"
+    },
+    {
+      "name": "sensetime.verify.face-search",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$Verify"
+    },
+    {
+      "name": "sensetime.verify.face-syn-add",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$Verify"
+    },
+    {
+      "name": "sensetime.verify.score",
+      "type": "java.lang.Double",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$Verify"
+    },
+    {
+      "name": "sensetime.verify.target-add",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$Verify"
+    },
+    {
+      "name": "sensetime.verify.target-clear",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$Verify"
+    },
+    {
+      "name": "sensetime.verify.target-delete",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$Verify"
+    },
+    {
+      "name": "sensetime.verify.target-gets",
+      "type": "java.lang.String",
+      "sourceType": "com.cnbmtech.apiadmin.config.SensetimeProperties$Verify"
+    }
+  ],
+  "hints": []
+}
